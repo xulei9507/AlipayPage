@@ -1,0 +1,171 @@
+header,
+footer {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+header {
+  top: 0;
+  width: 100%;
+  height: 170px;
+  background-color: #3a3a3a;
+}
+header ul {
+  color: #fff;
+  height: 47px;
+  display: -webkit-box;
+  font-weight: 900;
+}
+header ul li {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  box-flex: 1;
+  height: 47px;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+}
+header ul li:nth-child(2) {
+  width: 57%;
+}
+header ul li:nth-child(2) i {
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 10px;
+  font-style: normal;
+}
+header .itemList {
+  display: -webkit-box;
+  color: #fff;
+  height: 120px;
+}
+header .itemList .item {
+  height: 115px;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+}
+header .itemList .item p:nth-child(1) {
+  font-size: 40px;
+}
+header .itemList .item p:nth-child(2) {
+  font-size: 14px;
+  margin-top: 10px;
+}
+section {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+section .itemList {
+  overflow: hidden;
+}
+section .itemList .item {
+  float: left;
+  width: 25%;
+  min-height: 86px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  font-size: 12px;
+  font-weight: 900;
+}
+section .itemList .item:last-child {
+  border-right: 0;
+}
+section .itemList .item p:nth-child(1) {
+  font-size: 24px;
+  margin-bottom: 4px;
+  font-weight: 100;
+}
+section .itemList:last-child {
+  border-bottom: 1px solid #eee;
+}
+.banner {
+  height: 88px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  position: relative;
+  z-index: 1;
+}
+.banner .banner_box a {
+  display: block;
+}
+.banner .banner_box a img {
+  width: 100%;
+  height: 88px;
+}
+.banner .controls {
+  position: absolute;
+  bottom: 0;
+  left: 47%;
+}
+.banner .controls ul li {
+  float: left;
+  width: 6px;
+  height: 6px;
+  border-radius: 100px;
+  background-color: #e4e4e4;
+  margin: 4px 2px;
+}
+.banner .controls ul li.active {
+  background-color: #08a5f2;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 54px;
+  background-color: #fafbfd;
+  border: 1px solid #dadada;
+}
+footer ul {
+  display: -webkit-box;
+  color: #999;
+}
+footer ul li {
+  height: 54px;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  box-pack: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  box-align: center;
+}
+footer ul li p:nth-child(1) {
+  font-size: 28px;
+}
+footer ul li p:nth-child(2) {
+  font-size: 10px;
+  line-height: 16px;
+}
+footer ul li.active {
+  color: #00abf5;
+}
+/*# sourceMappingURL=main.css.map */
